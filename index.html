@@ -98,11 +98,20 @@
 }
 
 .service-card {
+    display: block;
     background: var(--card);
     padding: 25px;
     border-radius: 16px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color: var(--text);
+    transition: 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
 }
 
 .service-card h2 {
@@ -159,20 +168,20 @@
     <!-- SERVICES -->
     <section class="services">
 
-        <div class="service-card">
+        <a href="refurbished.html" class="service-card">
             <h2>💻 Refurbished Laptops</h2>
             <p>Quality tested laptops at affordable prices. Perfect for home, school, or business use.</p>
-        </div>
+        </a>
 
-        <div class="service-card">
+        <a href="repairs.html" class="service-card">
             <h2>🛠 Repairs</h2>
             <p>Screen replacements, battery issues, slow performance, virus removal and more.</p>
-        </div>
+        </a>
 
-        <div class="service-card">
+        <a href="upgrades.html" class="service-card">
             <h2>⚡ Upgrades</h2>
             <p>SSD upgrades, RAM expansion, performance boosts and hardware improvements.</p>
-        </div>
+        </a>
 
     </section>
 
