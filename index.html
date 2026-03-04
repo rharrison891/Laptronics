@@ -66,6 +66,59 @@
         font-size: 0.8rem;
         color: var(--muted);
     }
+    .container {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    color: var(--muted);
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.contact {
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.services {
+    display: grid;
+    gap: 20px;
+}
+
+.service-card {
+    background: var(--card);
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.service-card h2 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: var(--muted);
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+    .services {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 </style>
 </head>
 
