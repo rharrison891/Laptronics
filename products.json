@@ -3,20 +3,29 @@
     {
       "id": "dell-latitude-5400",
       "shortDesc": "Dell Latitude 5400",
+      "longDesc": "A great example of Dell's Latitude range...",
       "price": 220,
-      "currency": "GBP",
       "images": [
         "images/Dell5400.webp"
-      ]
-    },
-    {
+      ],
+      "specs": {
+        "cpu": "Intel i5",
+        "ram": "8GB",
+        "storage": "256GB SSD"
+      }
+    }, {
       "id": "hp-probook-450",
       "shortDesc": "HP ProBook 450",
-      "price": 320,
-      "currency": "GBP",
+      "longDesc": "A great example of HP's ProBook range...",
+      "price": 360,
       "images": [
         "images/hp450.webp"
-      ]
-    }
+      ],
+      "specs": {
+        "cpu": "Intel i7",
+        "ram": "16GB",
+        "storage": "256GB SSD"
+      }
+    } 
   ]
 }
