@@ -36,19 +36,38 @@
 
 <h1>Current Stock</h1>
 
-<div class="stock-card">
-    <h2>Dell Latitude 5400</h2>
-    <p>Intel i5 • 8GB RAM • 256GB SSD</p>
-    <p><strong>£220</strong></p>
-</div>
-
-<div class="stock-card">
-    <h2>HP ProBook 450</h2>
-    <p>Intel i7 • 16GB RAM • 512GB SSD</p>
-    <p><strong>£320</strong></p>
-</div>
+<div id="productList" class="products"></div>
 
 <p><a href="index.html">← Back to Home</a></p>
 
 </body>
+
+    <script>
+
+async function loadProducts() {
+
+    const response = await fetch('products.json');
+    const data = await response.json();
+
+    const container = document.getElementById("productList");
+
+    data.products.forEach(p => {
+
+        const card = document.createElement("a");
+        card.className = "product-card";
+        card.href = "product.html?id=" + p.id;
+
+        card.innerHTML = `
+            <img src="${p.images[0]}" alt="${p.shortDesc}">
+            <h3>${p.shortDesc}</h3>
+            <p class="price">£${p.price}</p>
+        `;
+
+        container.appendChild(card);
+    });
+}
+
+loadProducts();
+
+    </script>
 </html>
