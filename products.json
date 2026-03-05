@@ -1,0 +1,22 @@
+{
+      "products": [
+          {
+                "id": "dell-latitude-5400",
+                      "shortDesc": "Dell Latitude 5400",
+                            "longDesc": "A great example of Dell's Latitude range...",
+                                  "images": [
+                                          "images/dell5400-1.jpg",
+                                                  "images/dell5400-2.jpg"
+                                                        ],
+                                                              "specs": {
+                                                                      "cpu": "Intel i5",
+                                                                              "ram": "8GB",
+                                                                                      "ramType": "DDR3",
+                                                                                              "storage": "256GB",
+                                                                                                      "storageType": "SSD"
+                                                                                                            },
+                                                                                                                  "price": 220.00,
+                                                                                                                        "currency": "GBP"
+                                                                                                                            }
+                                                                                                                              ]
+                                                                                                                              }
