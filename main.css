@@ -20,3 +20,10 @@
 .content li {
     margin-bottom: 8px;
 }
+
+.product-actions{
+    margin-top:30px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
