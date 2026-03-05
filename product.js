@@ -18,7 +18,7 @@ async function loadProduct() {
     document.getElementById("description").textContent = product.longDesc;
     document.getElementById("price").textContent = "£" + product.price;
     const emailBtn = document.getElementById("emailBtn");
-    emailBtn.href="mailto:info@laptronicsolutions.co.uk?subject=Enquiry about " + encodeURIComponent(product.shortdesc);
+    emailBtn.href="mailto:info@laptronicsolutions.co.uk?subject=Enquiry about " + encodeURIComponent(product.shortDesc);
 
     const specList = document.getElementById("specList");
 
