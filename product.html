@@ -65,10 +65,9 @@ img {
 <p><a href="stock.html">← Back to Stock</a></p>
 
 <script src="product.js"></script>
-const emailBtn = document.getElementById("emailBtn");
-
-emailBtn.href =
-"mailto:info@laptronicsolutions.co.uk?subject=Enquiry about " + 
-encodeURIComponent(product.shortdesc);
+<script>
+    const emailBtn = document.getElementById("emailBtn");
+    emailBtn.href="mailto:info@laptronicsolutions.co.uk?subject=Enquiry about " + encodeURIComponent(product.shortdesc);
+</script>
 </body>
 </html>
