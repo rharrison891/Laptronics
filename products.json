@@ -1,10 +1,24 @@
 {
   "products": [
     {
+      "id": "toshiba-portege-z30",
+      "shortDesc": "Toshiba Dynabook Portege",
+      "longDesc": "Dynabook Toshiba Portege Z30-C-16H business ultrabook with a 13.3 inch Full HD display, Intel Core i5-6200U, 4GB RAM and a 256GB SSD (upgraded). Lightweight magnesium design with full-size ports and UK QWERTY keyboard",
+      "price": 140,
+      "images": [
+        "images/toshiba-portege-z30.webp"
+      ],
+      "specs": {
+        "cpu": "Intel Atom x5",
+        "ram": "4GB",
+        "storage": "156GB SSD"
+      }
+    },
+    {
       "id": "Acer-Chromebook-11",
       "shortDesc": "Acer Chromebook 11",
       "longDesc": "Acer Chromebook 11 CB3-132-11DC in Stone Blue featuring an 11.6″ HD screen, Intel Atom x5 processor, 2GB RAM and 16GB eMMC storage. Runs fast and secure Google Chrome OS with access to Google apps and Play Store. Lightweight refurbished Chromebook ideal for students and everyday online use.",
-      "price": 140,
+      "price": 90,
       "images": [
         "images/acer-chromebook-11.webp"
       ],
