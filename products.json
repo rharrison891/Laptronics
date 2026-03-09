@@ -57,19 +57,6 @@
       }
     },
     {
-      "id": "dell-latitude-5400",
-      "shortDesc": "Dell Latitude 5400",
-      "longDesc": "A great example of Dell's Latitude range...",
-      "price": 220,
-      "images": [
-        "images/Dell5400.webp"
-      ],
-      "specs": {
-        "cpu": "Intel i5",
-        "ram": "8GB",
-        "storage": "256GB SSD"
-      }
-    }, {
       "id": "hp-probook-450",
       "shortDesc": "HP ProBook 450",
       "longDesc": "A great example of HP's ProBook range...",
