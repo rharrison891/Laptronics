@@ -2,6 +2,20 @@
   "products": [
     {
       "id": "dell-latitude-5400",
+      "shortDesc": "Acer Chromebook 11",
+      "longDesc": "Acer Chromebook 11 CB3-132-11DC in Stone Blue featuring an 11.6″ HD screen, Intel Atom x5 processor, 2GB RAM and 16GB eMMC storage. Runs fast and secure Google Chrome OS with access to Google apps and Play Store. Lightweight refurbished Chromebook ideal for students and everyday online use.",
+      "price": 140,
+      "images": [
+        "images/Acer-Chromebook-11.webp"
+      ],
+      "specs": {
+        "cpu": "Intel Atom x5",
+        "ram": "2GB",
+        "storage": "16GB eMMC"
+      }
+    },
+    {
+      "id": "dell-latitude-5400",
       "shortDesc": "Dell Latitude 5400",
       "longDesc": "A great example of Dell's Latitude range...",
       "price": 220,
