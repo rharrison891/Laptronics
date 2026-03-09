@@ -33,6 +33,13 @@ img {
     border-radius: 10px;
 }
 
+/* Remove bullets from lists */
+ul, ol {
+    list-style: none;
+    padding-left: 0; /* remove default indentation */
+    margin-left: 0;
+}
+
 /* ========================================
    GENERAL LAYOUT
 ======================================== */
