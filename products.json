@@ -9,7 +9,7 @@
         "images/toshiba-portege-z30.webp"
       ],
       "specs": {
-        "cpu": "Intel Atom x5",
+        "cpu": "Intel I5-6200U",
         "ram": "4GB",
         "storage": "156GB SSD"
       }
