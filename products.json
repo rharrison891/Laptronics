@@ -57,15 +57,15 @@
       }
     },
     {
-      "id": "hp-probook-450",
-      "shortDesc": "HP ProBook 450",
-      "longDesc": "A great example of HP's ProBook range...",
+      "id": "microsoft-surface-4",
+      "shortDesc": "Microsoft Surface 4",
+      "longDesc": "Microsoft Surface Laptop 4 in Black (Model 1951) featuring Intel Core i7-1185G7, 16GB RAM and a 256GB SSD. A powerful, portable choice for productivity, email, browsing and multitasking.",
       "price": 360,
       "images": [
-        "images/hp450.webp"
+        "images/microsoft-surface-4.webp"
       ],
       "specs": {
-        "cpu": "Intel i7",
+        "cpu": "Intel i7-1185G7",
         "ram": "16GB",
         "storage": "256GB SSD"
       }
