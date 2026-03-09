@@ -52,6 +52,13 @@ header img {
     display: block;
 }
 
+.logo-home {
+    display: block;
+    margin: 0 auto;
+    height: 80px; /* or whatever size you prefer */
+    width: auto;
+}
+
 .container {
     max-width: 1000px;
     margin: auto;
