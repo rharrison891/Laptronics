@@ -11,7 +11,7 @@
       "specs": {
         "cpu": "Intel I5-6200U",
         "ram": "4GB",
-        "storage": "156GB SSD"
+        "storage": "256GB SSD"
       }
     },
     {
@@ -26,6 +26,20 @@
         "cpu": "Intel Atom x5",
         "ram": "2GB",
         "storage": "16GB eMMC"
+      }
+    },
+    {
+      "id": "lenovo-thinkpad-l490",
+      "shortDesc": "Lenovo Thinkpad L490",
+      "longDesc": "Lenovo ThinkPad L490 14 inch Full HD laptop with Intel Core i5-8365U, 8 GB RAM and 256 GB PCIe NVMe SSD. Features: HDMI, USB-C, USB 3.1, RJ-45 Ethernet, 4-in-1 card reader (SD/MMC/SDHC/SDXC), Wi-Fi + Fibocom L830-EB 4G LTE module, 720 p Webcam. Supplied with Windows 11 Pro preinstalled.",
+      "price": 180,
+      "images": [
+        "images/lenovo-thinkpad-l490.webp"
+      ],
+      "specs": {
+        "cpu": "Intel I5-8365U",
+        "ram": "8GB",
+        "storage": "256GB PCIe NVMe SSD"
       }
     },
     {
