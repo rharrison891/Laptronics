@@ -29,6 +29,20 @@
       }
     },
     {
+      "id": "hp-chromebook-14",
+      "shortDesc": "HP Chromebook 14",
+      "longDesc": "Refurbished HP Chromebook 14-db0003na with a 14 inch HD anti-glare display, AMD A4-9120, 4GB RAM and 32GB eMMC. Ideal for browsing, Google Docs, email and streaming on Chrome OS.",
+      "price": 120,
+      "images": [
+        "images/hp-chromebook-14.webp"
+      ],
+      "specs": {
+        "cpu": "AMD A4-9120",
+        "ram": "4GB",
+        "storage": "32GB eMMC"
+      }
+    },
+    {
       "id": "hp-elite-745",
       "shortDesc": "HP Elite 745",
       "longDesc": "HP EliteBook 745 G4, 14-inch Full HD 1920x1080 Display, AMD A10-8730B 2.40GHz (up to 3.30GHz), 8GB DDR4 RAM, 256GB SSD, AMD Radeon R5 Graphics, Wi-Fi (802.11a/b/g/n Wireless), 10/100 Mbps LAN, Bluetooth 4.0, WebCam, 1x USB Type C, 2x USB 3.0, HDMI, Genuine Windows 10 Professional 64Bit preinstalled + Recovery Tools (to repair or reinstall Windows back to factory settings or to create a system recovery USB Flash Drive), pre-installed with ESET Internet Security, this ensures your digital life is safeguarded, giving you peace of mind while browsing, shopping, or working online.",
