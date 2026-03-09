@@ -43,6 +43,14 @@ ul, ol {
 /* ========================================
    GENERAL LAYOUT
 ======================================== */
+header {
+    padding: 15px 20px;
+    background: #0f172a; /* or your page header color */
+}
+
+header img {
+    display: block;
+}
 
 .container {
     max-width: 1000px;
