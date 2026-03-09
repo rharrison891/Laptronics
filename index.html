@@ -1,209 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laptronic Solutions – Quality laptops, repairs & upgrades</title>
-
-<style>
-    :root {
-        --bg: #0f172a;
-        --card: #1e293b;
-        --accent: #38bdf8;
-        --text: #e2e8f0;
-        --muted: #94a3b8;
-    }
-
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    }
-
-    body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    min-height: 100vh; /* full viewport height */
-    flex-direction: column;
-}
-
-.container {
-    max-width: 1000px;
-    width: 100%;
-}
-
-    .card {
-        background: var(--card);
-        padding: 40px;
-        border-radius: 16px;
-        max-width: 500px;
-        width: 100%;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    }
-
-    h1 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-    }
-
-    p {
-        color: var(--muted);
-        margin-bottom: 25px;
-    }
-
-    .badge {
-        display: inline-block;
-        background: var(--accent);
-        color: #0f172a;
-        padding: 8px 14px;
-        border-radius: 999px;
-        font-weight: 600;
-        font-size: 0.9rem;
-    }
-
-    footer {
-        margin-top: 25px;
-        font-size: 0.8rem;
-        color: var(--muted);
-    }
-
-.hero {
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 50vh; /* optional, keeps hero prominent */
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-}
-
-.tagline {
-    color: var(--muted);
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-}
-
-.contact {
-    font-size: 0.9rem;
-    color: var(--muted);
-}
-
-.services {
-    display: grid;
-    gap: 20px;
-}
-
-.service-card {
-    display: block;
-    background: var(--card);
-    padding: 25px;
-    border-radius: 16px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    text-decoration: none;
-    color: var(--text);
-    transition: 0.2s ease;
-}
-
-.service-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
-}
-
-.service-card h2 {
-    margin-bottom: 10px;
-}
-
-.service-card p {
-    color: var(--muted);
-}
-
-/* Desktop layout */
-@media (min-width: 768px) {
-    .services {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-    .cta {
-    display: inline-block;
-    margin-top: 20px;
-    background: var(--accent);
-    color: #0f172a;
-    padding: 12px 20px;
-    border-radius: 999px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.2s ease;
-}
-
-.cta:hover {
-    opacity: 0.85;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptronic Solutions – Quality laptops, repairs & upgrades</title>
+    <link rel="stylesheet" href="./main.css/>
 </head>
 
 <body>
 
-<div class="container">
-
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Laptronic Solutions</h1>
-        <p class="tagline">
-            Affordable refurbished laptops, professional repairs, and hardware upgrades.
+    <div class="container">
+    
+        <!-- HERO -->
+        <section class="hero">
+            <h1>Laptronic Solutions</h1>
+            <p class="tagline">
+                Affordable refurbished laptops, professional repairs, and hardware upgrades.
+            </p>
+    
+            <div class="contact">
+                📧 info@laptronicsolutions.co.uk<br>
+                📱 01243 583981
+                
+            </div>
+            <a href="stock.html" class="cta">View Current Stock</a>
+        </section>
+    
+        <!-- SERVICES -->
+        <section class="services">
+    
+            <a href="refurbished.html" class="service-card">
+                <h2>💻 Refurbished Laptops</h2>
+                <p>Quality tested laptops at affordable prices. Perfect for home, school, or business use.</p>
+            </a>
+    
+            <a href="repairs.html" class="service-card">
+                <h2>🛠 Repairs</h2>
+                <p>Screen replacements, battery issues, slow performance, virus removal and more.</p>
+            </a>
+    
+            <a href="upgrades.html" class="service-card">
+                <h2>⚡ Upgrades</h2>
+                <p>SSD upgrades, RAM expansion, performance boosts and hardware improvements.</p>
+            </a>
+    
+        </section>
+    
+        <footer style="font-size:0.9em; text-align:center; margin-top:40px; line-height:1.5;">
+        <p>
+            © 2026 Laptronic Solutions. All rights reserved.<br>
+            Registered in England and Wales. Registration number 09086580.
         </p>
-
-        <div class="contact">
-            📧 info@laptronicsolutions.co.uk<br>
-            📱 01243 583981
-            
-        </div>
-        <a href="stock.html" class="cta">View Current Stock</a>
-    </section>
-
-    <!-- SERVICES -->
-    <section class="services">
-
-        <a href="refurbished.html" class="service-card">
-            <h2>💻 Refurbished Laptops</h2>
-            <p>Quality tested laptops at affordable prices. Perfect for home, school, or business use.</p>
-        </a>
-
-        <a href="repairs.html" class="service-card">
-            <h2>🛠 Repairs</h2>
-            <p>Screen replacements, battery issues, slow performance, virus removal and more.</p>
-        </a>
-
-        <a href="upgrades.html" class="service-card">
-            <h2>⚡ Upgrades</h2>
-            <p>SSD upgrades, RAM expansion, performance boosts and hardware improvements.</p>
-        </a>
-
-    </section>
-
-    <footer style="font-size:0.9em; text-align:center; margin-top:40px; line-height:1.5;">
-    <p>
-        © 2026 Laptronic Solutions. All rights reserved.<br>
-        Registered in England and Wales. Registration number 09086580.
-    </p>
-    <p>
-        <a href="./terms.html">Terms & Conditions</a> | 
-        <a href="./privacy.html">Privacy Policy</a>
-    </p>
-    </footer>
-
-</div>
+        <p>
+            <a href="./terms.html">Terms & Conditions</a> | 
+            <a href="./privacy.html">Privacy Policy</a>
+        </p>
+        </footer>
+    
+    </div>
 
 </body>
 </html>
